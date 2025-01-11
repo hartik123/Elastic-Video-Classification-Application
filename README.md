@@ -1,7 +1,7 @@
 # AWS Lambda-Based Elastic Video Classification Application
 
 ## Overview
-This project is an **Image and Video Classification Cloud Application** built using AWS services. It allows users to upload videos, which are processed and classified using a machine learning model. The architecture is designed to handle variable traffic with custom autoscaling capabilities, dynamically scaling between 0 to 20 instances based on demand. The system supports strong decoupling between video uploading and classification, ensuring scalability and efficiency.
+This project is a **Video Classification application** built using AWS PaaS services like AWS Lambda. It allows users to upload a video and classify the frames in the video using the Machine Learning model MTCNN. The architecture is designed to support strong decoupling between video uploading and video classification, as well as autoscaling based on the number of requests.
 
 ## Architecture Diagram
 ![Video Classification Architecture](https://github.com/user-attachments/assets/f6ec3311-b652-47db-bffc-607d7d77f1f6)
